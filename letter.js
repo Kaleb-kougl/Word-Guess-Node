@@ -9,11 +9,15 @@ function Letter(character, guessed,) {
     }
   };
   this.checkGuess = function(guessedLetter){
-    if (guessedLetter === this.character) {
+    if (guessedLetter.toLowerCase() === this.character.toLowerCase()) {
       this.guessed = true;
+      return true;
     }
+    return false;
   }
 }
+
+module.exports = Letter;
 
 // Unit tests
 // let myLetter = new Letter('L', false);

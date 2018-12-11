@@ -1,0 +1,19 @@
+{
+  "name": "word-guess-node",
+  "version": "1.0.0",
+  "description": "Word Guess command-line game using constructor functions in node.js",
+  "main": "letter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaleb-kougl/Word-Guess-Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaleb-kougl/Word-Guess-Node/issues"
+  },
+  "homepage": "https://github.com/Kaleb-kougl/Word-Guess-Node#readme"
+}
