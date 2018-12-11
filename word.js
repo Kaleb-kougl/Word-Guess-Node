@@ -1,5 +1,4 @@
 const Letter = require('./letter.js');
-console.log(Letter);
 
 function Word(newWord) {
 
@@ -38,14 +37,14 @@ function Word(newWord) {
 }
 
 // UNIT TESTS
-let myWord = new Word("Kaleb");
-console.log(myWord);
-console.log(myWord.evaluateDisplay());
-console.log(myWord.checkForLetter('a'));
-console.log(myWord.evaluateDisplay());
-console.log(myWord.checkForLetter('z'));
-console.log(myWord.evaluateDisplay());
-console.log(myWord.checkForLetter('K'));
-console.log(myWord.evaluateDisplay());
+// let myWord = new Word("Kaleb");
+// console.log(myWord);
+// console.log(myWord.evaluateDisplay());
+// console.log(myWord.checkForLetter('a'));
+// console.log(myWord.evaluateDisplay());
+// console.log(myWord.checkForLetter('z'));
+// console.log(myWord.evaluateDisplay());
+// console.log(myWord.checkForLetter('K'));
+// console.log(myWord.evaluateDisplay());
 
 module.exports = Word;
